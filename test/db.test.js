@@ -1,12 +1,12 @@
 "use strict";
 
 const { assert } = require("chai");
-const { programs } = require("../db/programs");
+const programs = require("../db/programs");
 
 describe("programs database interxns", () => {
-  describe("createNew()", () => {
+  describe("new()", () => {
     it("should be a function", () => {
-      assert.isFunction(programs.createNew);
+      assert.isFunction(programs.new);
     });
   });
   describe("delete()", () => {
