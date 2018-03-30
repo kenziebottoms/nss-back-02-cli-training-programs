@@ -9,7 +9,7 @@ describe("programs database interxns", () => {
       assert.isFunction(programs.new);
     });
     it("should return a promise", () => {
-      assert.typeOf(programs.new(), "promise");
+      assert.typeOf(programs.new({}).catch(err => {}), "promise");
     });
   });
   describe("delete()", () => {
