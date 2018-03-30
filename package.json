@@ -1,0 +1,25 @@
+{
+  "name": "cli-training-programs",
+  "version": "1.0.0",
+  "description": "Build a command line interface for adding/deleting/viewing a training program to a table in a SQLite db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenziebottoms/nss-back-02-cli-training-programs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenziebottoms/nss-back-02-cli-training-programs/issues"
+  },
+  "homepage": "https://github.com/kenziebottoms/nss-back-02-cli-training-programs#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5",
+    "prompt": "^1.0.0"
+  }
+}
