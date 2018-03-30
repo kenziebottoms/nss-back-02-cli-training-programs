@@ -1,7 +1,7 @@
 "use strict";
 
 const sqlite3 = require("sqlite3").verbose();
-const db = new sqlite3.Database("programs.sqlite");
+const db = new sqlite3.Database("db/programs.sqlite");
 
 module.exports = () => {
   db.serialize(() => {
