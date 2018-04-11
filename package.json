@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha -R nyan --watch",
-    "gen:db": "node db/gen.js"
+    "db:gen": "node db/gen.js"
   },
   "repository": {
     "type": "git",

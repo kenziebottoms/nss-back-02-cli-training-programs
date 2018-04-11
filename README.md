@@ -1,4 +1,21 @@
-# Instructions
+# CLI training programs
+
+![](https://img.shields.io/badge/mvp-wip-yellow.svg)
+![](https://img.shields.io/badge/data-sqlite-blue.svg)
+![](https://img.shields.io/badge/testing-chai+mocha-a40802.svg)
+
+## Run locally
+
+```bash
+git clone git@github.com:kenziebottoms/nss-back-02-cli-training-programs.git
+cd nss-back-02-cli-training-programs
+npm install
+npm run db:gen
+npm test
+```
+
+## Instructions
+
 Build a command line interface for adding/deleting/viewing a training program to a table in a SQLite db
 
 You will need to construct a single table with these columns:
@@ -16,7 +33,7 @@ The app should enable the following actions:
 
 Use test-driven development to build the logic of your app ( Do not test the UI functionality). Remember to practice `red green refactor` and write no feature before the test for that feature, and only write enough code in each iteraction to make the test pass.
 
-## The UI
+### The UI
 Use the [prompt npm package](https://www.npmjs.com/package/prompt) to facilitate interaction with the user on the command line. You can use the [colors](https://www.npmjs.com/package/colors) package to spice up the terminal view.
 
 Example prompt:
